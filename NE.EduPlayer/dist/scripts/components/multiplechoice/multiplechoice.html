@@ -2,14 +2,18 @@
     {function:RenderOption}
     {param}
     <div class="col-xs-12 col-sm-4">
-        <div class="NE-multiple-chioce-option" id="{optionID}">
-            <img class="option-image img-responsive" src="{optionImage}" data-src="{optionImage}" data-hoversrc="{hoverImage}" data-activesrc="{activeImage}" />
+        <div class="NE-multiple-chioce-option{optionClasses}" id="{optionID}">
+            <img class="option-image img-responsive{imgClasses}" src="{optionImage}" data-src="{optionImage}" data-hoversrc="{hoverImage}" data-activesrc="{activeImage}" />
+            {/param}
+            {param}
             <div class="puffar-item-body">
                 <h3 class="NE-medium-header light mt-none">{optionitle}</h3>
                 <div class="puffar-item-text">
                     {optionText}
                 </div>
             </div>
+            {/param}
+            {param}
         </div>
     </div>
     {/param}
